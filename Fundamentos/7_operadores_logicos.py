@@ -1,8 +1,8 @@
 #CONTENIDO
 """
-1) OR (|)
-2) AND (&)
-3) NO (NOT)   
+1) o (|)
+2) y (&)
+3) no (not)   
 """
 # 1) OR (|)
 resultado = False | False

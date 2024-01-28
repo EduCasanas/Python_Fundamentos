@@ -1,7 +1,7 @@
 #CONTENIDO
 """
-1) IF-ELSE
-2) ELSE-IF (ELIF)  y anidacion de if's   
+1) if-else
+2) else-if (elif)  y anidacion de if's   
 """
 # 1) IF-ELSE
 edad = 9
