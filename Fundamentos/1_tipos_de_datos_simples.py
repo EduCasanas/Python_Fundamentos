@@ -1,6 +1,6 @@
 #CONTENIDO
 """
-1) Tipos de datos(string, int, float, bool)
+1) Tipos de datos(string("hola"), int(99), float(9.7), bool(True, False))
 """
 
 # 1) Tipos de datos

@@ -3,8 +3,8 @@
 1) Variables
 2) Concatenacion (+)
     2.1) Interpolacion(agregar variables dentro de strings => f"Hola {variable}")
-    2.2) Eliminar variables
-    2.3) Operadores de pertenencia
+    2.2) Eliminar variables => del variable
+    2.3) Operadores de pertenencia => in, not in
 3) Recomendacion de escritura de variables => snake_case    
 """
 # 1) Variables

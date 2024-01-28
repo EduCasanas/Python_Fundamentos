@@ -1,7 +1,7 @@
 #CONTENIDO
 """
-1) Comentarios
-2) Impresion por pantalla
+1) Comentarios '#' o """ """
+2) Impresion por pantalla => print(variable)
 """
 
 # 1) Comentarios
