@@ -62,7 +62,7 @@
 11) Cadena empieza con una palabra o letra (STARTSWITH) => `variable.startswith("palabra")` 
 12) Cadena termina con una palabra o letra (ENDSWITH) => `variable.endswith("palabra")`
 13) Reemplaza un valor por otro (REPLACE) => `variable.replace("antiguo", "nuevo")`
-14) Separa por el parametro dado (SPLIT) => `variable.split("parametro: espacio, coma, caracter, etc")`
+14) Separa por el parametro dado y crea una lista de estos elementos (SPLIT) => `variable.split("parametro: espacio, coma, caracter, etc")`
 ---
 ### Archivo "9_metodos_listas.py"
 1) Crear una lista (list) => `list(["cadena", int, float, bool])`
@@ -76,4 +76,14 @@
 9) Ordena una lista de forma ascendente (sort) => `lista.sort()` | orden descendente: `lista.sort(reverse=True)` 
 10) Invierte los elementos de una lista (reverse) => `lista.reverse()`
 11) Posicion de un elemento de una lista (index) => `lista.index(elemento en la lista)`
+---
+### Archivo "10_metodos_diccionarios.py"
+1) Devuelve las claves del diccionario (keys) => `diccionario.keys()`
+2) Devuelve el valor de una clave (get) => `diccionario.get("key del diccionario")`
+3) Elimina todos los elementos del diccionario (clear) => `diccionario.clear()`
+4) Elimina un elemento del diccionario (pop) => `diccionario.pop("key del diccionario")`
+5) Convierte el diccionario a una lista de elementos (items) => `diccionario.items()`
+---
+### Archivo "11_entrada_datos.py"
+1) Pedir datos al usuario (input) => `input("Texto a mostrarse en consola")`
 ---

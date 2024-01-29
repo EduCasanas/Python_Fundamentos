@@ -13,7 +13,7 @@
 11) Cadena empieza con una palabra o letra (STARTSWITH) => variable.startswith("palabra") 
 12) Cadena termina con una palabra o letra (ENDSWITH) => variable.endswith("palabra")
 13) Reemplaza un valor por otro (REPLACE) => variable.replace("antiguo", "nuevo")
-14) Separa por el parametro dado (SPLIT) => variable.split("parametro: espacio, coma, caracter, etc")
+14) Separa por el parametro dado y crea una lista de estos elementos (SPLIT) => variable.split("parametro: espacio, coma, caracter, etc")
 """
 # 1) dir (me dice que metodos son aplicables a una variable)
 cadena1 = "Hola educa"
