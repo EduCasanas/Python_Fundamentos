@@ -21,6 +21,7 @@ tiempo_curso_promedio_horas = 4
 #   - el mas rapido de otros cursos
 diferencia_porcentual_contra_rapido = ( (tiempo_curso_minimo_horas - tiempo_curso_actual_horas) / tiempo_curso_minimo_horas ) * 100
 print(f"El curso actual dura {diferencia_porcentual_contra_rapido}% menos que el curso mas rapido.")
+# El curso actual dura 40.0% menos que el curso mas rapido.
 
 #   - el mas lento de otros cursos
 diferencia_porcentual_contra_lento = ( (tiempo_curso_maximo_horas - tiempo_curso_actual_horas) / tiempo_curso_maximo_horas ) * 100
