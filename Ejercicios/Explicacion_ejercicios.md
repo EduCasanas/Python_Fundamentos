@@ -84,7 +84,7 @@ print("El porcentaje inservible que se reduce en el curso actual es: {:.2f}%".fo
 
 #### C) Ver 10 horas de este curso a cuantas horas de otros cursos promedio equivale? y alreves?
 
-![EjercicioC.1](https://github.com/EduCasanas/Python_Fundamentos/blob/main/Ejercicios/1_Ejercicio/Ejercicio1_C.1.png)
+![Ejercicio1_C.1](https://github.com/EduCasanas/Python_Fundamentos/blob/main/Ejercicios/1_Ejercicio/Ejercicio1_C.1.png)
 
 ```Python
 # Haciendo una regla de 3: 
@@ -96,7 +96,7 @@ print("Ver 10 horas del curso actual representan a ver {:.2f} horas de un curso 
 
 #### Ahora alreves 10 horas de un curso promedio a cuanto equivale en horas al curso actual?
 
-![EjercicioC.2](https://github.com/EduCasanas/Python_Fundamentos/blob/main/Ejercicios/1_Ejercicio/Ejercicio1_C.2.png)
+![Ejercicio1_C.2](https://github.com/EduCasanas/Python_Fundamentos/blob/main/Ejercicios/1_Ejercicio/Ejercicio1_C.2.png)
 
 ```Python
 # Haciendo una regla de 3:
@@ -105,3 +105,63 @@ print("Ver 10 horas de un curso promedio representan a ver {:.2f} horas del curs
 
 # Ver 10 horas de un curso promedio representan a ver 3.75 horas del curso actual.
 ```
+---
+
+## Ejercicio 2
+
+Se sabe que una persona promedio pronuncia 2 palabras por segundo.
+
+A) Pedirle al usuario que diga cualquier texto real y:
+- calcular cuanto tardaria en decir esa frase.
+- cuantas palabras dijo?
+
+B) Si se tarda mas de 1 minuto:
+- decirle 'detente! has hablado mas de 1 minuto'
+
+C) El mas rapido en hablar lo hace un 30% mas que el promedio:
+- cuanto tardaria esta persona en decirlo?
+
+## Solucion
+
+
+#### A) Pedirle al usuario que diga cualquier texto real y:
+- calcular cuanto tardaria en decir esa frase.
+
+```Python
+palabras_por_segundo_promedio = (2 / 1) # 2 palabras / 1 segundo
+texto_por_consola = input("Ingrese un texto: ")
+texto_a_lista = texto_por_consola.split(" ") # El split automaticamente crea una lista con los elementos
+cantidad_palabras_ingresadas = len(texto_a_lista)
+tiempo_de_palabras_ingresadas_promedio = cantidad_palabras_ingresadas * ( 1 / palabras_por_segundo_promedio) # Al multiplicar * (1 / palabras por segundo) se simplifica palabras y solo quedan segundos.
+# Tambien podia simplemente en vez de multiplicar(* (1/palabras por segundo promedio)) directamente dividir 'palabras ingresadas' con 'palabras por segundo promedio'
+print(f"Una persona promedio al pronunciar: {texto_a_lista} tardara {tiempo_de_palabras_ingresadas_promedio} segundos")
+```
+
+- cuantas palabras dijo?
+
+```Python
+print(f"La persona pronuncio: {cantidad_palabras_ingresadas} palabras.")
+```
+
+#### B) Si se tarda mas de 1 minuto(60 segundos):
+- decirle 'detente! has hablado mas de 1 minuto'
+
+```Python
+if tiempo_de_palabras_ingresadas_promedio > 60:
+    print("Detente! has hablado mas de 1 minuto")
+```
+
+#### C) El mas rapido en hablar lo hace un 30% mas que el promedio:
+- cuanto tardaria esta persona en decirlo?
+
+![Ejercicio2_C.1](https://github.com/EduCasanas/Python_Fundamentos/blob/main/Ejercicios/2_Ejercicio/Ejercicio2_C.1.png)
+
+```Python
+palabras_por_segundo_rapido = palabras_por_segundo_promedio + 0.6
+tiempo_mas_rapido = cantidad_palabras_ingresadas / palabras_por_segundo_rapido
+print("La persona mas rapida pronuncia {} en {:.2f} segundos.".format(texto_a_lista, tiempo_mas_rapido))
+```
+
+## Ejercicio 3
+
+## Ejercicio 4
