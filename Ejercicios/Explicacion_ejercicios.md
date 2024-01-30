@@ -18,9 +18,9 @@ A) Diferencia porcentual entre el curso actual y:
 
 ## Solucion
 
-##### A) Diferencia porcentual entre el curso actual y:
+#### A) Diferencia porcentual entre el curso actual y:
 
-- el mas rapido de otros cursos
+- el mas rapido de otros cursos:
 
 ![EjercicioA.1](https://github.com/EduCasanas/Python_Fundamentos/blob/main/Ejercicios/1_Ejercicio/Ejercicio1_A.1.png)
 
@@ -36,7 +36,7 @@ print(f"El curso actual dura {diferencia_porcentual_contra_rapido}% menos que el
 # El curso actual dura 40.0% menos que el curso mas rapido.
 ```
 
-- el mas lento de otros cursos
+- el mas lento de otros cursos:
 
 ![EjercicioA.2](https://github.com/EduCasanas/Python_Fundamentos/blob/main/Ejercicios/1_Ejercicio/Ejercicio1_A.2.png)
 
@@ -47,7 +47,7 @@ print("El curso actual dura {:.2f}% menos que el curso mas lento.".format(difere
 # El curso actual dura 78.57% menos que el curso mas lento.
 ```
 
-- el promedio de otros cursos
+- el promedio de otros cursos:
 
 ![EjercicioA.3](https://github.com/EduCasanas/Python_Fundamentos/blob/main/Ejercicios/1_Ejercicio/Ejercicio1_A.3.png)
 
@@ -58,9 +58,9 @@ print(f"El curso actual dura {diferencia_porcentual_contra_promedio}% menos que 
 # El curso actual dura 62.5% menos que el curso promedio.
 ```
 
-##### B) Porcentaje de material inservible que se reduce en:
+#### B) Porcentaje de material inservible que se reduce en:
 
-- el promedio de los cursos
+- el promedio de los cursos:
 
 ```Python
 # Haciendo la misma analogia de los ejercicios anteriores tenemos:
@@ -73,7 +73,7 @@ print(f"El porcentaje inservible que se reduce en el video promedio es: {porcent
 # El porcentaje inservible que se reduce en el video promedio es: 20.0%
 ```
 
-- el curso actual(este curso)
+- el curso actual(este curso):
 
 ```Python
 porcentaje_inservible_video_actual = ( (tiempo_curso_actual_crudo_horas - tiempo_curso_actual_horas) / tiempo_curso_actual_crudo_horas ) * 100
@@ -82,7 +82,7 @@ print("El porcentaje inservible que se reduce en el curso actual es: {:.2f}%".fo
 # El porcentaje inservible que se reduce en el curso actual es: 57.14%
 ```
 
-##### C) Ver 10 horas de este curso a cuantas horas de otros cursos promedio equivale? y alreves?
+#### C) Ver 10 horas de este curso a cuantas horas de otros cursos promedio equivale? y alreves?
 
 ![EjercicioC.1](https://github.com/EduCasanas/Python_Fundamentos/blob/main/Ejercicios/1_Ejercicio/Ejercicio1_C.1.png)
 
@@ -94,7 +94,7 @@ print("Ver 10 horas del curso actual representan a ver {:.2f} horas de un curso 
 # Ver 10 horas del curso actual representan a ver 26.67 horas de un curso promedio.
 ```
 
-##### Ahora alreves 10 horas de un curso promedio a cuanto equivale en horas al curso actual
+#### Ahora alreves 10 horas de un curso promedio a cuanto equivale en horas al curso actual?
 
 ![EjercicioC.2](https://github.com/EduCasanas/Python_Fundamentos/blob/main/Ejercicios/1_Ejercicio/Ejercicio1_C.2.png)
 
